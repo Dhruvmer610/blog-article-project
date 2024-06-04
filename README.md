@@ -36,11 +36,11 @@
                      "mobileNumber":"8965874875"
                 }
 
-  - **Delete User**
+## Category Endpoints
+   - **Delete User**
   - Endpoint: `localhost:3000/users/delete`
   - Headers: `logintoken: [enter user login token]`
 
-## Article Endpoints
 - **Add Category**
   - Endpoint: `localhost:3000/category/addCategory`
   - Request Body:{
@@ -50,6 +50,7 @@
   - **Delete Category**
   - Endpoint: `localhost:3000/category/deleteCategory/<categoryId>`
 
+## Article Endpoints
 - **Add Article**
   - Endpoint: `localhost:3000/article/addArticle`
   - Headers: `logintoken: [enter user login token]`
