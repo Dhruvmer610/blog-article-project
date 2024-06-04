@@ -35,9 +35,9 @@
                  "email":"dhruv@gmail.com",
                  "mobileNumber":"8965874875"
             }
-  - **Delete User**
-      - Endpoint: `localhost:3000/users/delete`
-      - Headers: `logintoken: [enter user login token]`
+- **Delete User**
+  - Endpoint: `localhost:3000/users/delete`
+  - Headers: `logintoken: [enter user login token]`
     
 ## Category Endpoints
 - **Add Category**
