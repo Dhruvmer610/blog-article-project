@@ -1,9 +1,4 @@
 
-# Project Name
-
-## Description
-This project is a [brief description of your project].
-
 ## Installation
 1. Download the zip file and unzip it.
 2. Run the following command in the terminal: npm i 
@@ -13,7 +8,7 @@ This project is a [brief description of your project].
     -SECRET_KEY=token_secret,
     -PORT=3000
 
-5. Open Postman and import the provided Postman collection.
+5. Open Postman and import the provided Postman collection. ===> [Link to Postman Collection]([https://github.com/Dhruvmer610/blog-article-project](https://github.com/Dhruvmer610/blog-article-project/tree/main/postmanCollection))
 
 ## User Endpoints
 - **Register User**
@@ -53,7 +48,7 @@ This project is a [brief description of your project].
                 }
 
   - **Delete Category**
-  - Endpoint: `localhost:3000/category/deleteCategory`
+  - Endpoint: `localhost:3000/category/deleteCategory/<categoryId>`
 
 - **Add Article**
   - Endpoint: `localhost:3000/article/addArticle`
@@ -67,7 +62,7 @@ This project is a [brief description of your project].
                 }
 
   - **Update Article**
-  - Endpoint: `localhost:3000/article/updateArticle/665ea40d389091afd42ec6f2`
+  - Endpoint: `localhost:3000/article/updateArticle/<articleId>`
   - Headers: `logintoken: [enter user login token]`
   - Request Body:{
                   "articleTitle": "food",
@@ -78,7 +73,7 @@ This project is a [brief description of your project].
                 }
 
   - **Delete Article**
-  - Endpoint: `localhost:3000/article/deleteArticle/665ea40d389091afd42ec6f2`
+  - Endpoint: `localhost:3000/article/deleteArticle/<articleId>`
   - Headers: `logintoken: [enter user login token]`
 
 - **View Article**
