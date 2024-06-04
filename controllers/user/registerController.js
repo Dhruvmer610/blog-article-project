@@ -10,7 +10,7 @@ exports.register = async (req, res) => {
         if (existingUser) {
             var response = {
                 status: false,
-                message: "Email is already in use."
+                message: "Email is already exits."
             }
             return res.send(response)
         }
@@ -43,7 +43,6 @@ exports.register = async (req, res) => {
 exports.login = async (req, res, next) => {
     try {
         var checkUser = await registerModel.findOne({ email: req.body.email }).lean();
-        console.log("checkUser", checkUser);
         if (checkUser) {
             var submitPassword = req.body.password
             var storedPassword = checkUser.password
@@ -110,3 +109,24 @@ exports.upadetUser = async (req, res) => {
         return res.send(response)
     }
 }
+
+exports.deleteUser = async (req, res) => {
+    try {
+        const userId = req.user._id;
+
+       await registerModel.deleteOne({ _id: userId });
+
+        var response = {
+            status: true,
+            message: "User deleted successfully"
+        };
+        return res.send(response);
+    }
+    catch (error) {
+        var response = {
+            status: false,
+            message: error.message
+        };
+        return res.status(500).send(response);
+    }
+};
