@@ -20,21 +20,21 @@
                     "mobileNumber":"7575854785"
                     }
 
-  - **Login User**
-      - Endpoint: `localhost:3000/users/login`
-      - Request Body:{
-                  "email":"John@gmail.com",
-                  "password":"1234"
-                }
+- **Login User**
+  - Endpoint: `localhost:3000/users/login`
+  - Request Body:{
+              "email":"John@gmail.com",
+              "password":"1234"
+            }
 
-  - **Update User**
-      - Endpoint: `localhost:3000/users/update`
-      - Headers: `logintoken: [enter user login token]`
-      - Request Body:{
-                     "name":"MD",
-                     "email":"dhruv@gmail.com",
-                     "mobileNumber":"8965874875"
-                }
+- **Update User**
+  - Endpoint: `localhost:3000/users/update`
+  - Headers: `logintoken: [enter user login token]`
+  - Request Body:{
+                 "name":"MD",
+                 "email":"dhruv@gmail.com",
+                 "mobileNumber":"8965874875"
+            }
 
 ## Category Endpoints
   - **Delete User**
