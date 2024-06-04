@@ -8,7 +8,7 @@
     -SECRET_KEY=token_secret,
     -PORT=3000
 
-5. Open Postman and import the provided Postman collection. ===> [Link to Postman Collection]([https://github.com/Dhruvmer610/blog-article-project](https://github.com/Dhruvmer610/blog-article-project/tree/main/postmanCollection))
+5. Open Postman and import the provided Postman collection. ===> [Link to Postman Collection](https://github.com/Dhruvmer610/blog-article-project/tree/main/postmanCollection)
 
 ## User Endpoints
 - **Register User**
