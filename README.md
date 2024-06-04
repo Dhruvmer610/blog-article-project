@@ -21,16 +21,16 @@
                     }
 
   - **Login User**
-  - Endpoint: `localhost:3000/users/login`
-  - Request Body:{
+      - Endpoint: `localhost:3000/users/login`
+      - Request Body:{
                   "email":"John@gmail.com",
                   "password":"1234"
                 }
 
   - **Update User**
-  - Endpoint: `localhost:3000/users/update`
-  - Headers: `logintoken: [enter user login token]`
-  - Request Body:{
+      - Endpoint: `localhost:3000/users/update`
+      - Headers: `logintoken: [enter user login token]`
+      - Request Body:{
                      "name":"MD",
                      "email":"dhruv@gmail.com",
                      "mobileNumber":"8965874875"
@@ -48,7 +48,7 @@
                 }
 
   - **Delete Category**
-  - Endpoint: `localhost:3000/category/deleteCategory/<categoryId>`
+      - Endpoint: `localhost:3000/category/deleteCategory/<categoryId>`
 
 ## Article Endpoints
 - **Add Article**
@@ -56,7 +56,7 @@
   - Headers: `logintoken: [enter user login token]`
   - Request Body:{
                   "articleTitle": "2st Education",
-                  "description": "There are various benefits of having education such as having a good career, having a good status in society, and having self-confidence. First of all, education gives us the chance of having a good career in our life.",
+                  "description": "There are various benefits of having education such as having a good career, having a good status in society, and having self-confidence. First of all, education gives us the chance of                                      having a good career in our life.",
                   "slug": "Education ",
                   "category": "Education,",
                   "categoryId": "665dc2c10f0e869b963b4c90"
