@@ -21,8 +21,6 @@ exports.register = async (req, res) => {
             password,
             mobileNumber
         });
-        console.log("registerDetail", registerDetail)
-
         var data = await registerDetail.save()
         return res.send(
             {
