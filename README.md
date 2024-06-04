@@ -82,7 +82,12 @@ This project is a [brief description of your project].
 ## User Endpoints
 - **Register User**
   - Endpoint: `localhost:3000/users/register`
-  - Request Body:
+  - Request Body:{
+                    "name":"John",
+                    "email":"John@gmail.com",
+                    "password":"1234",
+                    "mobileNumber":"7575854785"
+                    }
 
   - **Login User**
   - Endpoint: `localhost:3000/users/login`
