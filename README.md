@@ -7,7 +7,7 @@
     - DB_CONNECT_STRING=mongodb://localhost:27017/databaseName or your database url,
     - SECRET_KEY=token_secret,
     - PORT=3000
-4. start project: npm start
+4. Run the following command in the terminal tostart : npm start
 5. Open Postman and import the provided Postman collection. ===> [Link to Postman Collection](https://github.com/Dhruvmer610/blog-article-project/tree/main/postmanCollection)
 
 ## User Endpoints
