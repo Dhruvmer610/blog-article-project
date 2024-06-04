@@ -46,8 +46,8 @@
                   "category":"Position"
                 }
 
-  - **Delete Category**
-      - Endpoint: `localhost:3000/category/deleteCategory/<categoryId>`
+- **Delete Category**
+  - Endpoint: `localhost:3000/category/deleteCategory/<categoryId>`
 
 ## Article Endpoints
 - **Add Article**
