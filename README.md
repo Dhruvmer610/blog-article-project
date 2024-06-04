@@ -80,6 +80,7 @@
   - Headers: `logintoken: [enter user login token]`
 
 - **Search and Sorting Article**
+    - "search from articleTitle,category,description" 
   - Endpoint: `localhost:3000/article/searchAndSorting`
   - Query Params: `search: [search term]`
 
