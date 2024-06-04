@@ -62,16 +62,16 @@
                   "categoryId": "665dc2c10f0e869b963b4c90"
                 }
 
-  - **Update Article**
-      - Endpoint: `localhost:3000/article/updateArticle/<articleId>`
-      - Headers: `logintoken: [enter user login token]`
-      - Request Body:{
-                  "articleTitle": "food",
-                  "description": "having self-confidence. First of all, education gives us the chance of having a good career in our life.",
-                  "slug": "food",
-                  "category": "food",
-                  "categoryId": "855dc2c10f0e869b963b4c90"
-                }
+- **Update Article**
+  - Endpoint: `localhost:3000/article/updateArticle/<articleId>`
+  - Headers: `logintoken: [enter user login token]`
+  - Request Body:{
+              "articleTitle": "food",
+              "description": "having self-confidence. First of all, education gives us the chance of having a good career in our life.",
+              "slug": "food",
+              "category": "food",
+              "categoryId": "855dc2c10f0e869b963b4c90"
+            }
 
 - **Delete Article**
   - Endpoint: `localhost:3000/article/deleteArticle/<articleId>`
