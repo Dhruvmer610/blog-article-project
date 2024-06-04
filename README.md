@@ -64,3 +64,76 @@ articlebaseurl = localhost:3000/article/
                 
  -searchAndSortingArticle = localhost:3000/article/searchAndSorting
                 Query Params = search: "search from articleTitle,category,description"
+
+
+# Project Name
+
+## Description
+This project is a [brief description of your project].
+
+## Installation
+1. Download the zip file and unzip it.
+2. Run the following command in the terminal:
+
+3. Create a `.env` file and add the following environment variables:
+
+4. Open Postman and import the provided Postman collection.
+
+## User Endpoints
+- **Register User**
+  - Endpoint: `localhost:3000/users/register`
+  - Request Body:
+
+  - **Login User**
+  - Endpoint: `localhost:3000/users/login`
+  - Request Body:
+
+  - **Update User**
+  - Endpoint: `localhost:3000/users/update`
+  - Headers: `logintoken: [enter user login token]`
+  - Request Body:
+
+  - **Delete User**
+  - Endpoint: `localhost:3000/users/delete`
+  - Headers: `logintoken: [enter user login token]`
+
+## Article Endpoints
+- **Add Category**
+  - Endpoint: `localhost:3000/category/addCategory`
+  - Request Body:
+
+  - **Delete Category**
+  - Endpoint: `localhost:3000/category/deleteCategory`
+
+- **Add Article**
+  - Endpoint: `localhost:3000/article/addArticle`
+  - Headers: `logintoken: [enter user login token]`
+  - Request Body:
+
+  - **Delete Category**
+  - Endpoint: `localhost:3000/category/deleteCategory`
+
+- **Add Article**
+  - Endpoint: `localhost:3000/article/addArticle`
+  - Headers: `logintoken: [enter user login token]`
+  - Request Body:
+
+  - **Update Article**
+  - Endpoint: `localhost:3000/article/updateArticle/665ea40d389091afd42ec6f2`
+  - Headers: `logintoken: [enter user login token]`
+  - Request Body:
+
+  - **Delete Article**
+  - Endpoint: `localhost:3000/article/deleteArticle/665ea40d389091afd42ec6f2`
+  - Headers: `logintoken: [enter user login token]`
+
+- **View Article**
+  - Endpoint: `localhost:3000/article/viewArticle`
+  - Headers: `logintoken: [enter user login token]`
+
+- **Search and Sorting Article**
+  - Endpoint: `localhost:3000/article/searchAndSorting`
+  - Query Params: `search: [search term]`
+
+## GitHub Repository
+[Link to GitHub Repository](https://github.com/yourusername/yourrepository)
