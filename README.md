@@ -82,6 +82,3 @@
     - "search from articleTitle,category,description" 
   - Endpoint: `localhost:3000/article/searchAndSorting`
   - Query Params: `search: [search term]`
-
-## GitHub Repository
-[Link to GitHub Repository](https://github.com/Dhruvmer610/blog-article-project)
