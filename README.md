@@ -61,7 +61,6 @@
                   "category": "Education,",
                   "categoryId": "665dc2c10f0e869b963b4c90"
                 }
-
 - **Update Article**
   - Endpoint: `localhost:3000/article/updateArticle/<articleId>`
   - Headers: `logintoken: [enter user login token]`
@@ -72,7 +71,6 @@
               "category": "food",
               "categoryId": "855dc2c10f0e869b963b4c90"
             }
-
 - **Delete Article**
   - Endpoint: `localhost:3000/article/deleteArticle/<articleId>`
   - Headers: `logintoken: [enter user login token]`
