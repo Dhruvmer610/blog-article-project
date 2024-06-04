@@ -1,6 +1,6 @@
 
 ## Installation
-1. Download the zip file and unzip it.
+1. Download the zip file and unzip it or Clone Repository => [Link to GitHub Repository](https://github.com/Dhruvmer610/blog-article-project).
 2. Run the following command in the terminal: npm i 
 
 3. Create a `.env` file and add the following environment variables:
