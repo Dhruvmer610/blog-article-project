@@ -37,9 +37,9 @@
                 }
 
 ## Category Endpoints
-   - **Delete User**
-  - Endpoint: `localhost:3000/users/delete`
-  - Headers: `logintoken: [enter user login token]`
+  - **Delete User**
+      - Endpoint: `localhost:3000/users/delete`
+      - Headers: `logintoken: [enter user login token]`
 
 - **Add Category**
   - Endpoint: `localhost:3000/category/addCategory`
